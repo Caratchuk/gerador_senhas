@@ -2,10 +2,7 @@
 Validação de força de senha.
 
 Cada regra é uma função independente que recebe a senha e devolve
-True/False — assim é fácil adicionar, remover ou testar uma regra sem
-mexer nas outras (Clean Code: funções pequenas, uma responsabilidade
-cada).
-"""
+True/False 
 
 import re
 from dataclasses import dataclass, field
