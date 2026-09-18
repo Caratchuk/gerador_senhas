@@ -1,11 +1,6 @@
 """
 Geração de senhas seguras aleatórias.
 
-Usa `secrets` (não `random`) porque `random` não é seguro para fins
-criptográficos — detalhe importante para quem quer mostrar atenção a
-boas práticas de segurança num projeto de portfólio.
-"""
-
 import secrets
 import string
 from dataclasses import dataclass
